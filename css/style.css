@@ -9,7 +9,6 @@
     --border-color: #ccc;
     --white-color: #fff;
 }
-
 img {
 	max-width:100%;
 	height: auto;
@@ -32,20 +31,13 @@ a img:hover {
 	border-bottom: 3px solid var(--base-color);
 	padding-bottom: 0.5rem;
 }
-
 .head {
 	display: flex;
     flex-direction: row;
     padding: 1rem 0 0 0;
 }
-
 .head h1 { 
     padding: 1rem 0;
-}
-.telbox {
-	margin-left: auto;
-	font-size: 3.0rem;
-	padding: 1rem 0 0 0;
 }
 nav ul {
 	display: flex;
@@ -68,75 +60,32 @@ nav a:hover {
 nav a {
     padding: 1rem;
 }
-
 @media screen and (min-width: 768px){
-#open,#close {
-    display: none !important;
-}
-
 #navi {
     display: block !important;
 }
 }
-
 @media screen and (max-width: 768px){
 .head {
 	flex-direction: column;
     text-align: left;
     margin-bottom: 20px;
 }
-.telbox {
-	margin-left: 0;
-	text-align: center;
-}
-.head #open,#close  {
-    position: absolute;
-    top: 28px;
-    right: 12px;
-    }
 nav ul {
 	flex-direction: column;
 }
-
 nav li {
 	padding-top: 0;
 	border-bottom: 1px solid var(--border-color);
 	margin-bottom: 0;
 }
-#open {
-    display: block;
-    background: url(../img/button.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 50px;
-    height: 50px;
-    border: none;
-    position: absolute;
-    top: 20px;
-    right: 12px;
-}
-#close  {
-    display: block;
-    background: url(../img/button2.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 50px;
-    height: 50px;
-    border: none;
-    position: absolute;
-    top: 20px;
-    right: 12px;
-}
 #navi {
     display: none;
 }
 }
-
-
 main {
-    margin: 5rem 0 5rem 0;
+    margin: 0 0 5rem 0;
 }
-
 footer {
     background-color: var(--back-color);
     padding: 5rem 0;
@@ -144,7 +93,6 @@ footer {
 footer h5 {
     border-bottom: 3px solid var(--border-color);
 }
-
 #pagetop {
     position: fixed;
     bottom: 15px;
